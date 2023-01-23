@@ -7,7 +7,7 @@ const SignIn = () => {
         <img
           className='md:mt-[70px] md:w-[360px] md:h-[163.72px] min-[393px]:mt-[27px] min-[393px]:w-[171px] min-[393px]:h-[78px]'
           alt=''
-          src='src/assets/LogoNaqosFix.png'
+          src='/static/LogoNaqosFix.png'
         />
       </div>
       <div className='flex flex-col justify-center mx-auto md:mt-[48px] md:w-[526px] min-[393px]:mt-[18px]'>
@@ -31,7 +31,12 @@ const SignIn = () => {
           className='absolute pointer-events-none md:mt-[110px] md:ml-[480px] min-[393px]:mt-[115px] min-[393px]:ml-[330px]'
           src='src/assets/icon_eye-slash.svg'
         />
-        <a href='#' className='md:mt-[12px] md:text-[16px] md:font-[600] min-[393px]:text-[14px] min-[393px]:font-[500px] min-[393px]:mt-1 text-left text-black hover:text-black'>Lupa Password</a>
+        <a
+          href='#'
+          className='md:mt-[12px] md:text-[16px] md:font-[600] min-[393px]:text-[14px] min-[393px]:font-[500px] min-[393px]:mt-1 text-left text-black hover:text-black'
+        >
+          Lupa Password
+        </a>
       </div>
       <div className='flex flex-row justify-center md:mt-[29px] min-[393px]:mt-[20px]'>
         <button
@@ -42,11 +47,11 @@ const SignIn = () => {
         </button>
       </div>
       <div className='flex flex-row justify-center md:mt-[21px] min-[393px]:mt-[20px]'>
-        <hr className='md:mt-3 md:w-[195px] min-[393px]:w-[160px] min-[393px]:mt-3 bg-[#999999] border-1 border-[#999999]'/>
+        <hr className='md:mt-3 md:w-[195px] min-[393px]:w-[160px] min-[393px]:mt-3 bg-[#999999] border-1 border-[#999999]' />
         <p className='md:text-[24px] min-[393px]:text-[12px] w-max mx-2 font-[600] text-[#999999]'>
           atau
         </p>
-        <hr className='md:mt-3 md:w-[195px] min-[393px]:w-[160px] min-[393px]:mt-3 bg-[#999999] border-1 border-[#999999]'/>
+        <hr className='md:mt-3 md:w-[195px] min-[393px]:w-[160px] min-[393px]:mt-3 bg-[#999999] border-1 border-[#999999]' />
       </div>
       <div className='flex flex-row justify-center md:mt-[16px] min-[393px]:mt-[20px]'>
         <button
@@ -55,7 +60,10 @@ const SignIn = () => {
         >
           Masuk dengan Google
         </button>
-        <img className='absolute md:mt-3 md:mr-[230px] min-[393px]:mt-2 min-[393px]:mr-[200px]' src='src/assets/icon_google.svg' />
+        <img
+          className='absolute md:mt-3 md:mr-[230px] min-[393px]:mt-2 min-[393px]:mr-[200px]'
+          src='src/assets/icon_google.svg'
+        />
       </div>
       <div className='flex flex-row justify-center md:mt-[16px] min-[393px]:mt-[20px]'>
         <p className='md:text-[16px] min-[393px]:text-[14px] text-center text-black font-[600]'>
