@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<LandingPage />} />
-          <Route path='/profil' element={<Profile />}></Route>
+          <Route path='/profil/:id' element={<Profile />}></Route>
           <Route path='/editprofil' element={<EditProfile />}></Route>
           <Route path='/gantipassword' element={<Changepass />}></Route>
           <Route path='/login' element={<SignIn />} />

@@ -1,10 +1,12 @@
 import React from 'react';
 import './profile.css';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const Profile = () => {
+  const { id } = useParams();
   return (
     <>
+      <h1>{id}</h1>
       <ul className='breadcrumb ml-12 m-4 font-[Montserrat]'>
         <li>
           <Link to='/'>Home</Link>
